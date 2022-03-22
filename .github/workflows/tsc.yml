@@ -15,7 +15,7 @@ jobs:
         node-version: 12
     - name: npm init -y
       run: npm init -y
-    - name: npm install typescript
-      run: npm install typescript
-    - name: tsc
-      run: tsc
+    - name: npm install typescript-bundle
+      run: npm install typescript-bundle
+    - name: tsc-bundle
+      run: tsc-bundle
