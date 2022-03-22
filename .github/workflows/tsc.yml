@@ -19,5 +19,9 @@ jobs:
       run: npm install typescript-bundle
     - name: npx tsc-bundle tsconfig.json
       run: npx tsc-bundle tsconfig.json
-    - name: ls ./html
-      run: ls ./html
+    - name: git add ./html/bundle.js
+      run: git add ./html/bundle.js
+    - name: git commit -m "build typescript"
+      run: git commit -m "build typescript"
+    - name: git push origin master
+      run: git push origin master
