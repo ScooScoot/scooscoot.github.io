@@ -1,0 +1,12 @@
+{
+    "include": [
+        "src/**"
+    ],
+	"compilerOptions": {
+		"esModuleInterop": true,
+        "outFile": "./html/bundle.js",
+        "moduleResolution": "Node",
+        "module": "amd",
+        "target": "ES6"
+	}
+}
