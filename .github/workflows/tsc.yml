@@ -19,3 +19,5 @@ jobs:
       run: npm install typescript-bundle
     - name: npx tsc-bundle tsconfig.json
       run: npx tsc-bundle tsconfig.json
+    - name: ls ./html
+      run: ls ./html
