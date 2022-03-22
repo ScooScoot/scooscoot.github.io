@@ -20,3 +20,5 @@ jobs:
     - name: npx tsc-bundle tsconfig.json
       run: npx tsc-bundle tsconfig.json
     - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        branch: master
