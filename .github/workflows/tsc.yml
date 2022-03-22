@@ -19,11 +19,4 @@ jobs:
       run: npm install typescript-bundle
     - name: npx tsc-bundle tsconfig.json
       run: npx tsc-bundle tsconfig.json
-    - name: commit changed files
-      run: 
-        git config --global user.email "thejoecapewell@gmail.com"
-        git config --global user.name "Joe Capewell"
-        git remote add origin git@github.com:ScooScoot/scooscoot.github.io.git
-        git add ./html/bundle.js
-        git commit -m "build typescript"
-        git push origin master
+    - uses: stefanzweifel/git-auto-commit-action@v4
