@@ -17,5 +17,5 @@ jobs:
       run: npm init -y
     - name: npm install typescript-bundle
       run: npm install typescript-bundle
-    - name: tsc-bundle
-      run: tsc-bundle
+    - name: npx tsc-bundle tsconfig.json
+      run: npx tsc-bundle tsconfig.json
