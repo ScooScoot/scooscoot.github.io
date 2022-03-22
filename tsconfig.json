@@ -1,6 +1,10 @@
 {
+    "entryPoint": [
+        "src/index.ts"
+    ],
     "include": [
-        "src/**"
+        "src/**/*",
+	"src/*"
     ],
 	"compilerOptions": {
 		"esModuleInterop": true,
